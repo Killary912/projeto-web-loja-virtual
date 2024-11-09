@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.menu {
+  width: 100%;
+  background-color: #f0f0f0;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.menu img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.menu ul li {
+  margin-left: 20px;
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.banner {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url('..//img/img\ 1.png');
+}
+
+.banner-content {
+  position: relative;
+  max-width: 100px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.banner-image {
+  width: 50%;
+  height: auto;
+
+}
+
+.banner-text {
+  padding: 0 20px;
+}
+
+.banner-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.buttons a {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.buttons a:hover {
+  background-color: gray
+}
+
+.produtos {
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.produtos h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.produtos-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.produto {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.produto h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.produto p {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.produto .comprar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: gray;
+}
+
+.produto .comprar:hover {
+  background-color: #333;
+}
+
+.fundo {
+  width: 400px;
+  text-align: center;
+  border-radius: 5%;
+  box-shadow: 1px 1px 5px black;
+  padding: 10px;
+}
+
+
+.depoimentos {
+  text-align: center;
+  padding: 20px;
+}
+
+.depoimentos h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.container-depoimentos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.depoimento {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.depoimento img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  margin-bottom: 10px;
+}
+
+.depoimento p {
+  font-size: 16px;
+  color: #555;
+}
+
+.depoimento .cliente-nome {
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+.faq {
+  text-align: center;
+  padding: 20px;
+}
+
+.faq h2 {
+  font-size: 24px;
+
+  color: #333;
+}
+
+.container-faq {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+
+}
+
+.faq-item {
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.faq-item .pergunta {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.faq-item .resposta {
+  font-size: 16px;
+  color: #555;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+.contact-form {
+
+width: 40%;
+  border-radius: 20px;
+  height: 30%;
+  
+
+}
+
+.contact-form h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form label {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.imagem{
+  width: 40%;
+  height: auto;
+}
+.imagem img{
+  width: 100%;
+}
+
+
+.contact-form textarea {
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 5px;
+  border: 1px #ccc;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+.contact-form input{
+  width: 100%;
+
+}
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+width: 100%;
+  height: auto;
+  text-align: center;
+  align-items: end;
+}
+
+.input textform{
+  height: 24px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #201f1f;
+  border-top: 1px solid #bdb4b4;
+}
+
+.footer-menu p {
+  font-size: 16px;
+  color: #f1eeee;
+  margin: 5px 0;
+}
+
+.ultimosartigos{
+  text-align: center;
+  padding: 15px;
+}
+.ultimosartigos h2{
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.artigos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.artigo a{
+  background-color: #201f1f;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.artigo{
+  border: 1px solid #bdb4b4;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+.artigo img{
+  width: 100%;
+  height: 200px;
+}
+
+.artigo-text{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 480px){
+  .menu{
+    flex-direction: column;
+  }
+  
+  .menu ul{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu ul li{
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+
+  .menu ul li a{
+    color: white;
+    background-color: #201f1f;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px){
+  .banner-text h1{
+    font-size: 2em;
+  }
+
+
+  .banner-text p{
+    font-size: 1em;
+  }
+}
